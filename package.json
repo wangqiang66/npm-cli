@@ -1,50 +1,14 @@
+
 {
-  "name": "@ddjf/scroll-view",
-  "version": "1.0.3",
-  "description": "scroll-view from view simple scroll and add refresh and loadmore from list",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest  --watchAll --coverage ",
-    "example": "vue init webpack examples"
-  },
-  "keywords": [
-    "scroll"
-  ],
-  "devDependencies": {
-    "@vue/test-utils": "^1.0.0-beta.13",
-    "babel-jest": "^21.2.0",
-    "babel-preset-env": "^1.6.0",
-    "babel-preset-stage-2": "^6.24.1",
-    "jest": "^21.2.1",
-    "jest-vue-preprocessor": "^1.4.0",
-    "regenerator-runtime": "^0.11.0",
-    "vue": "^2.5.16",
-    "vue-template-compiler": "^2.4.4",
-    "vue-template-es2015-compiler": "^1.6.0"
-  },
-  "author": "wq",
-  "license": "ISC",
-  "jest": {
-    "moduleNameMapper": {
-      "@/(.*)$": "<rootDir>/src/$1"
+    "name": "npm-cli-template-webpack",
+    "version": "1.0.0",
+    "license": "MIT",
+    "description": "A full-featured Webpack setup with hot-reload, lint-on-save, unit testing & css extraction.",
+    "scripts": {
+      "docs": "cd docs && gitbook serve",
+      "docs:deploy": "bash ./deploy-docs.sh"
     },
-    "setupFiles": [
-      "<rootDir>/test/setup/weex.js",
-      "<rootDir>/test/setup/wx.js"
-    ],
-    "moduleFileExtensions": [
-      "js",
-      "vue"
-    ],
-    "transform": {
-      "^.+\\.js$": "<rootDir>/node_modules/babel-jest",
-      ".*\\.(vue)$": "<rootDir>/node_modules/jest-vue-preprocessor"
-    },
-    "testPathIgnorePatterns": [
-      "/node_modules/",
-      "/examples/"
-    ]
-  },
-  "_from": "@ddjf/scroll-view-@1.0.3",
-  "_resolved": "http://10.1.108.96:7001/@ddjf/scroll-view/download/@ddjf/scroll-view-1.0.3.tgz"
-}
+    "devDependencies": {
+      "vue-cli": "^2.8.1"
+    }
+  }
