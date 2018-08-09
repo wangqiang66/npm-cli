@@ -45,7 +45,7 @@ module.exports = {
       required: false,
       needTip: false,
       message: 'Project description',
-      default: 'A Vue.js project',
+      default: 'A component project for publish component',
     },
     author: {
       when: 'isNotTest',

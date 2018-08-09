@@ -75,10 +75,10 @@ To get started:
   ${yellow(
     `${data.inPlace ? '' : `cd ${data.destDirName}\n  `}${installMsg(
       data
-    )}${lintMsg(data)}npm run dev`
+    )}${lintMsg(data)}npm run example (create a vue example for you can write component examples)`
   )}
   
-Documentation can be found at https://vuejs-templates.github.io/webpack
+Documentation can be found to run pnpm init -h
 `
   console.log(message)
 }
