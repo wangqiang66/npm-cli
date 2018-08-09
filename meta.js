@@ -43,6 +43,7 @@ module.exports = {
       when: 'isNotTest',
       type: 'string',
       required: false,
+      needTip: false,
       message: 'Project description',
       default: 'A Vue.js project',
     },
@@ -50,11 +51,6 @@ module.exports = {
       when: 'isNotTest',
       type: 'string',
       message: 'Author',
-    },
-    test: {
-      when: 'isNotTest',
-      type: 'confirm',
-      message: 'Vue build'
     }
   },
   filters: {
