@@ -23,8 +23,8 @@
     "vue-template-compiler": "^2.4.4",
     "vue-template-es2015-compiler": "^1.6.0"
   },
-  {{/#test}}
-  "author": "{{Author}}",
+  {{/test}}
+  "author": "{{author}}",
   "license": "ISC",
   {{#test}}
   "jest": {
@@ -48,7 +48,7 @@
       "/examples/"
     ]
   },
-  {{/#test}}
+  {{/test}}
   "_from": "@ddjf/{{ name }}-@1.0.0",
   "_resolved": "http://10.1.108.96:7001/@ddjf/{{ name }}/download/@ddjf/{{ name }}-1.0.0.tgz"
 }
